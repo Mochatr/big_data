@@ -11,3 +11,6 @@ Big Data. Chaque projet vit dans son propre dossier avec son README détaillé.
 - [`storage_with_MINIO`](storage_with_MINIO/README.md) — Atelier de stockage objet
   compatible S3 avec MinIO : interface graphique, buckets, préfixes, et appels à
   l'API S3 (créer, lire, lister, supprimer des objets).
+- [`spark-sql-bike-sharing`](spark-sql-bike-sharing/README.md) — Atelier Spark SQL :
+  analyse d'un jeu de données de locations de vélos en libre-service (requêtes SQL,
+  agrégations, analyse temporelle, comportement utilisateur).
