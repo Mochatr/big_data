@@ -37,7 +37,7 @@ docker compose ps
 
 ### Captures de la console MinIO
 
-Voir `docs/` : buckets créés, objets organisés par préfixes dans
+Voir `captures/` : buckets créés, objets organisés par préfixes dans
 `stockage-cours` et `mini-projet-storage`.
 
 ### Requêtes API (équivalent Postman)
