@@ -18,3 +18,6 @@ Big Data. Chaque projet vit dans son propre dossier avec son README détaillé.
   Atelier PySpark Structured Streaming : traitement de fichiers CSV de capteurs
   déposés progressivement dans HDFS, avec un cluster Spark Standalone (statistiques
   par capteur et détection d'alertes en continu).
+- [`traitement_des_flux_avec_kafka`](traitement_des_flux_avec_kafka/README.md) —
+  TP5 Kafka Streams : nettoyage/validation de messages texte, analyse météo en flux,
+  et comptage de clics en temps réel avec une architecture Spring Boot + Kafka Streams.
