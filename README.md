@@ -14,3 +14,7 @@ Big Data. Chaque projet vit dans son propre dossier avec son README détaillé.
 - [`spark-sql-bike-sharing`](spark-sql-bike-sharing/README.md) — Atelier Spark SQL :
   analyse d'un jeu de données de locations de vélos en libre-service (requêtes SQL,
   agrégations, analyse temporelle, comportement utilisateur).
+- [`TP4 - Analyse en temps quasi réel des mesures de capteurs`](TP4%20-Analyse%20en%20temps%20quasi%20r%C3%A9el%20des%20mesures%20de%20capteurs/README.md) —
+  Atelier PySpark Structured Streaming : traitement de fichiers CSV de capteurs
+  déposés progressivement dans HDFS, avec un cluster Spark Standalone (statistiques
+  par capteur et détection d'alertes en continu).
