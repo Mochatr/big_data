@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Producteur de clics - TP5</title>
+</head>
+<body>
+  <h1>Exercice 3 - Producteur de clics Kafka</h1>
+  <p>Utilisateur : <input id="userId" value="user1"></p>
+  <button onclick="sendClick()">Cliquez ici</button>
+  <p id="status"></p>
+
+  <script>
+    async function sendClick() {
+      const userId = document.getElementById('userId').value || 'user1';
+      const res = await fetch('/click?userId=' + encodeURIComponent(userId), { method: 'POST' });
+      const text = await res.text();
+      document.getElementById('status').innerText = text;
+    }
+  </script>
+</body>
+</html>
